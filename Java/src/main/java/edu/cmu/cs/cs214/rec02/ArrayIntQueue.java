@@ -73,11 +73,14 @@ public class ArrayIntQueue implements IntQueue {
 
     /** {@inheritDoc} */
     public boolean isEmpty() {
-        return size >= 0;
+        return size == 0;
     }
 
     /** {@inheritDoc} */
     public Integer peek() {
+        if (isEmpty()) {
+            return null; // Хоосон бол null буцаах ёстой
+        }
         return elementData[head];
     }
 
@@ -95,14 +98,15 @@ public class ArrayIntQueue implements IntQueue {
             int oldCapacity = elementData.length;
             int newCapacity = 2 * oldCapacity + 1;
             int[] newData = new int[newCapacity];
-            for (int i = head; i < oldCapacity; i++) {
-                newData[i - head] = elementData[i];
+            
+            // head-ээс эхлээд size хүртэлх бүх элементийг 
+            // шинэ массивын 0-ээс эхлэн дарааллаар нь хуулна
+            for (int i = 0; i < size; i++) {
+                newData[i] = elementData[(head + i) % oldCapacity];
             }
-            for (int i = 0; i < head; i++) {
-                newData[head - i] = elementData[i];
-            }
+            
             elementData = newData;
-            head = 0;
+            head = 0; // Шинэ массив 0-ээс эхэлж байгаа тул head-ийг тэгэлнэ
         }
     }
 }
