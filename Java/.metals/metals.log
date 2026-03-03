@@ -166,3 +166,133 @@ Mar 02, 2026 11:39:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFO: Unsupported notification method: $/setTrace
 Mar 02, 2026 11:39:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.03.02 23:54:58 INFO  Shutting down server[0m
+2026.03.02 23:54:58 INFO  Memory monitor stopped[0m
+2026.03.02 23:54:58 INFO  shutting down Metals[0m
+2026.03.02 23:54:58 INFO  Exiting server[0m
+2026.03.02 23:54:58 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.lang.Thread.run(Thread.java:1447)
+[0m
+2026.03.03 15:55:00 INFO  Started: Metals version 1.6.5 in folders '/Users/pro/f.csa311.25b-lab04/Java' for client Visual Studio Code 1.109.0.
+2026.03.03 15:55:00 INFO  Memory monitor started
+2026.03.03 15:55:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.03 15:55:01 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+Mar 03, 2026 3:55:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.03.03 15:55:01 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:01 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+Mar 03, 2026 3:55:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2026.03.03 15:55:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+Mar 03, 2026 3:55:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.03.03 15:55:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:04 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:05 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:04 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:06 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:08 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:08 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:15 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:16 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:16 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:16 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:16 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:17 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:17 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:21 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:22 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:22 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:24 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:24 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:24 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:24 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:26 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:26 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:26 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:26 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:29 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:29 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:31 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:31 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:32 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:32 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:32 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:33 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:32 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:33 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:34 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:34 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:34 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:34 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:41 WARN  no build target for: /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java
+2026.03.03 15:55:41 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:41 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/test/java/edu/cmu/cs/cs214/rec02/IntQueueTest.java. Using fallback presentation compiler.
+2026.03.03 15:55:43 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:44 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:43 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:43 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:43 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:45 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:51 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:51 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:54 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:54 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:54 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:55 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:55 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:55 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:56 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:59 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:55:59 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:00 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:02 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:03 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:05 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:05 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:05 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:05 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:05 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:06 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:06 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:07 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:07 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:07 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:09 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:09 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:10 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:11 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/ArrayIntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:22 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/IntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:22 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/IntQueue.java. Using fallback presentation compiler.
+2026.03.03 15:56:23 INFO  no build target found for /Users/pro/f.csa311.25b-lab04/Java/src/main/java/edu/cmu/cs/cs214/rec02/IntQueue.java. Using fallback presentation compiler.

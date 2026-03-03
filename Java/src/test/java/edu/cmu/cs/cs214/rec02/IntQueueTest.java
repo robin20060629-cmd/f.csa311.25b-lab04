@@ -19,12 +19,8 @@ public class IntQueueTest {
     private IntQueue mQueue;
     private List<Integer> testList;
 
-    /**
-     * Тест эхлэхийн өмнө ажиллана.
-     */
     @Before
     public void setUp() {
-        // Одоо ArrayIntQueue-г шалгахаар тохируулсан байна
         mQueue = new ArrayIntQueue();
         testList = new ArrayList<>(List.of(1, 2, 3));
     }
@@ -42,7 +38,6 @@ public class IntQueueTest {
 
     @Test
     public void testPeekEmptyQueue() {
-        // Хоосон үед peek хийхэд null ирэх ёстой (Interface-ийн заавар ёсоор)
         assertNull(mQueue.peek());
     }
 
@@ -71,11 +66,6 @@ public class IntQueueTest {
         assertEquals(Integer.valueOf(20), mQueue.dequeue());
         assertTrue(mQueue.isEmpty());
     }
-
-    /**
-     * ArrayIntQueue-ийн ensureCapacity() доторх алдааг илрүүлэх тест.
-     * Анхны хэмжээ 10 байгаа тул 11 элемент нэмэхэд массив томрох ёстой.
-     */
     @Test
     public void testEnsureCapacity() {
         for (int i = 0; i < 12; i++) {
